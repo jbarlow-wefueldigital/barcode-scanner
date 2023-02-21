@@ -1,0 +1,21 @@
+{
+  "name": "station-qr-scanner",
+  "version": "1.0.0",
+  "description": "An app that scans a qr code and tracks a user's visit to a station.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://fueldigital@dev.azure.com/fueldigital/Mirrorshow/_git/station-qr-scanner"
+  },
+  "author": "Fuel Digital, LLC",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "log4js": "^6.7.1",
+    "node-fetch": "^3.3.0"
+  },
+  "type": "module"
+}
